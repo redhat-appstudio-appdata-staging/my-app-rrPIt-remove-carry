@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-fuhz
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/redhat-user-workloads-stage/rorai-tenant/my-app/devfile-sample-fuhz@sha256:e0e69fce6502d7824ec3b356c8558acf4e21679dbb3fe0ece71e411d84ec9fa9
         name: my-nodejs
         ports:
         - containerPort: 3001
