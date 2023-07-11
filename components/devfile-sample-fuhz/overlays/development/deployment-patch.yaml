@@ -4,7 +4,6 @@ metadata:
   creationTimestamp: null
   name: devfile-sample-fuhz
 spec:
-  replicas: 1
   selector: {}
   strategy: {}
   template:
